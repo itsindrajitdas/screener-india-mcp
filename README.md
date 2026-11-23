@@ -60,7 +60,7 @@ There are already a few. This one exists because of what went wrong with them in
 pipx install screener-india-mcp        # or: uv tool install screener-india-mcp
 ```
 
-Not on PyPI yet? Install from GitHub:
+Or the latest code from GitHub:
 
 ```bash
 pipx install git+https://github.com/itsindrajitdas/screener-india-mcp
