@@ -7,6 +7,8 @@ ratios, 10-year statements, quarterly trends, shareholding, peers, price history
 screens — without getting your network or account blocked, and with every number traceable to the
 page it came from.
 
+[![CI](https://github.com/itsindrajitdas/screener-india-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/itsindrajitdas/screener-india-mcp/actions/workflows/ci.yml)
+[![PyPI](https://img.shields.io/pypi/v/screener-india-mcp)](https://pypi.org/project/screener-india-mcp/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![MCP](https://img.shields.io/badge/MCP-read--only%20tools-green)
@@ -61,7 +63,7 @@ pipx install screener-india-mcp        # or: uv tool install screener-india-mcp
 Not on PyPI yet? Install from GitHub:
 
 ```bash
-pipx install git+https://github.com/indrajitdaspiramal-dotcom/screener-india-mcp
+pipx install git+https://github.com/itsindrajitdas/screener-india-mcp
 ```
 
 ### Claude Desktop
@@ -145,7 +147,7 @@ assistant session can run side by side without tripping Screener's limits.
 ## Development
 
 ```bash
-git clone https://github.com/indrajitdaspiramal-dotcom/screener-india-mcp
+git clone https://github.com/itsindrajitdas/screener-india-mcp
 cd screener-india-mcp
 pip install -e ".[dev]"
 pytest
